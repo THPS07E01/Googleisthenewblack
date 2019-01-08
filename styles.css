@@ -7,31 +7,59 @@ body {
 }
 
 #Header {
-    height: 100px;
     display: flex;
     justify-content: flex-end;
+    align-items: baseline;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    line-height: 24px;
 
 }
 
-.Menu a {
+#Header a {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
-    display: inline-block;
     line-height: 24px;
-    outline: none;
     vertical-align: middle;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
-    text-align: right;
-    margin-left: 0!important;
-    margin-right: 0!important;
-    white-space: nowrap;
-    line-height: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+    text-align: center;
+
+
 }
 
-.Menu a:hover {
+#Header a:hover {
 text-decoration: underline;
+}
+
+#Connexion {
+    height: 32px;
+    width: 101px;
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    text-decoration: none;
+    outline: none;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+#Square {
+    width: 30px;
+    height: 25px;
+    background: url(google2.png) -133px 28px;
+    align-self: center;
+    margin-right: 5px;
+    opacity: 0.5;
+
+}
+
+#Square:hover {
+    opacity: 1;
 }
 
 #Main {
@@ -110,3 +138,15 @@ text-decoration: underline;
     color: #222;
 }
 
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #609;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
