@@ -1,0 +1,54 @@
+
+#Header {
+    margin : 80px 0;
+
+}
+
+#Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Image {
+    width: 100%;
+    align-self: center;
+
+}
+
+#Searchbar {
+
+    width: 100%;
+    border: 2px;
+    margin: 20px 0;
+}
+
+#Buttons {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#googlepic {
+    display: block;
+    margin: 0 auto;
+}
+
+#Form {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.bouton {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    color: #757575;
+
+}
+
